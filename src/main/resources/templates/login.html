@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+	<!-- bootstrap for css cdn -->
+	<link rel="stylesheet" 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+		crossorigin="anonymous">
+	<!--Font-->
+     <script src="./Resources/fontawesome-free-6.2.0-web"></script>
+     <!--Custom Stylesheet-->
+     <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<!--Header section-->
+    <header>
+     	<div class="col-md-4 col-12 text-center">
+        	<h2 class="my-md-3 site-title text-white text-center text-justify">Buyer Seller</h2>
+        </div> 
+        <!-- <div class="col-md-4 col-12 test-right">
+        </div> -->  
+        <!--navigation menu-->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/login" th:href="@{/login}">Log In</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"  href="/signup" th:href="@{/signup}">Sign Up</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+    </header>
+    <!--Main section-->
+    <main>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h1> User Login</h1>
+				<form th:action="@{/login}" method="post"> 
+				
+					<!-- error message -->
+					<div th:if="${param.error}">
+						<div class="alert alert-danger">
+							Invalid username or password.
+						</div>
+					</div>
+					
+					<!-- logout message -->
+					<div th:if="${param.logout}">
+						<div class="alert alert-info">
+							You have logged out successfully from our Buyer Seller Web Application.
+						</div>
+					</div>
+					
+					<!-- username  -->
+					<div class="form-group">
+						<label class="control-label" for="username">Username</label>
+						<!-- fields of UserDto class -->
+						<input type="text" class="form-control" id="username" name="username" placeholder="Enter Username/Email ID" autofocus="autofocus"/>
+					</div>
+					
+					<!-- password  -->
+					<div class="form-group">
+						<label class="control-label" for="password">Passwrord</label>
+						<!-- fields of UserDto class -->
+						<input  type="password" class="form-control" id="password" placeholder="Enter Password" autofocus="autofocus"/>
+					</div>
+					
+					<!-- login button  -->
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<button type="submit" name="login-submit" id="login-submit" class="form-control btn btn-primary" value="Log In"> Log In</button>
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="form-group">
+					<span>
+						New to our Buyer Seller Web Application? Please 
+						<a href="/" th:href="@{/signup}"> Register here </a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+   </main>
+   
+ <!--Footer Section-->
+    <footer>
+       
+    </footer>
+</body>
+</html>

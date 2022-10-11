@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+<!-- bootstrap for css cdn -->
+	<link rel="stylesheet" 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+		crossorigin="anonymous">
+<!--Font-->
+     <script src="./Resources/fontawesome-free-6.2.0-web"></script>
+     <!--Custom Stylesheet-->
+     <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<!--Header section-->
+    <header>
+     	<div class="col-md-4 col-12 text-center">
+        	<h2 class="my-md-3 site-title text-white text-center text-justify">Buyer Seller</h2>
+        </div> 
+        <!-- <div class="col-md-4 col-12 test-right">
+        </div> -->  
+        <!--navigation menu-->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/login" th:href="@{/login}">Log In</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"  href="/signup" th:href="@{/signup}">Sign Up</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+    </header>
+    <!--Main section-->
+    <main>
+	<br>
+	<br>
+	<!-- sign up form -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<!-- success message -->
+				<div th:if="${param.success}">
+					<div class="alert alert-info">
+						Welcome, you have successfully sign up to our Buyer Seller Web Application!
+					</div>
+				</div>
+				<h1>Sign Up</h1>
+				<!-- context part of application user bean available for thymleaf to hold data form -->
+				<form th:action="@{/signup}" method="post" th:object="${user} ">  
+					<!-- first name  -->
+					<div class="form-group">
+						<label class="control-label" for="firstname">First Name </label>
+						<!-- fields of UserDto class -->
+						<input id="firstname" class="form-control" th:field ="*{firstName}" required autofocus="autofocus"/>
+					</div>
+					<!-- last name  -->
+					<div class="form-group">
+						<label class="control-label" for="lastname">Last Name </label>
+						<!-- fields of UserDto class -->
+						<input id="lastname" class="form-control" th:field ="*{lastName}" required autofocus="autofocus"/>
+					</div>
+					<!-- email  -->
+					<div class="form-group">
+						<label class="control-label" for="email">Email </label>
+						<!-- fields of UserDto class -->
+						<input id="email" class="form-control" th:field ="*{email}" required autofocus="autofocus"/>
+					</div>
+					<!-- password  -->
+					<div class="form-group">
+						<label class="control-label" for="password">Passwrord</label>
+						<!-- fields of UserDto class -->
+						<input id="password" class="form-control" type="password" th:field ="*{password}" required autofocus="autofocus"/>
+					</div>
+					<!-- sign up button  -->
+					<div class="form-group">
+						<button type="submit" class="btn btn-success"> Sign Up</button>
+						<span>
+							Already Have Account With Us? 
+							<a href="/" th:href="@{/login}"> Login Here </a>
+						</span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+ </main>
+ 
+<!--Footer Section-->
+    <footer>
+       
+    </footer>
+</body>
+</html>
