@@ -33,13 +33,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
 		</dependency>
-<!-- disable security starter temporarly
+<!-- Security-->
 		<dependency>
  			 <groupId>org.springframework.boot</groupId>
  			 <artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
--->
-		<!-- Security-->
+		
 <!-- disable security starter temporarly
 		<dependency>
  			 <groupId>org.springframework.security</groupId>

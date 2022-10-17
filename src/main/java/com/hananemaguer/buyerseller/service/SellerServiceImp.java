@@ -27,4 +27,10 @@ public class SellerServiceImp implements SellerServiceInt{
 		//our SellerServiceInterface(sellerRep) implements the JPARepository 
 		return sellerRepo.findAll();
 	}
+
+	@Override
+	public Seller save(Seller seller) {
+		
+		return sellerRepo.save(seller);
+	}
 }

@@ -25,4 +25,9 @@ public class BuyerServiceImp implements BuyerServiceInt{
 		//our BuyerServiceInterface(BuyerRep) implements the JPARepository 
 		return buyerRepo.findAll();
 	}
+
+	@Override
+	public Buyer save(Buyer buyer) {
+		return buyerRepo.save(buyer);
+	}
 }

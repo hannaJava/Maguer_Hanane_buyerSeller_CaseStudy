@@ -1,12 +1,14 @@
 package com.hananemaguer.buyerseller.service;
 
-//import org.springframework.security.core.userdetails.UserDetailsService;
+import java.util.List;
 
-import com.hananemaguer.buyerseller.dto.UserDto;
+import org.springframework.security.core.userdetails.UserDetailsService;
+
 import com.hananemaguer.buyerseller.model.User;
 
-public interface UserServiceInt{// extends UserDetailsService{
+public interface UserServiceInt extends UserDetailsService{
 	//to save user registration data
-	User save(UserDto userDto);
+	User save(User user) throws Exception;
 	//to retrieve user by email
+	List<User> getAllUsers();
 }

@@ -54,22 +54,24 @@
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                       </li>
-                      <li class="nav-item">
+                      <!--  <li class="nav-item">
                         <a class="nav-link active" href="#">Contact Us</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" href="#">About</a>
-                      </li>
+                      </li>-->
                     </ul>
                   </div>
                    <!--search icon-->
                   <div class="navbar-nav">
-                    <input type="text" class="form-control" placeholder="Search items to buy">
-                    <div class="input-group-append">
-                      <button class="btn btn-secondary" type="button">
+                  <form th:action="@{/items_list_by_keyword}" method="post">
+                    <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Search items to buy">
+                    <!--<div class="input-group-append">-->
+                      <button class="btn btn-secondary" type="submit">
                         Search
                       </button>
-                    </div>
+                    <!--</div>-->
+                    </form>
                   </div>
               </nav>
         </div>

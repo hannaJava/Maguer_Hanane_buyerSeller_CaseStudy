@@ -66,6 +66,12 @@
 				<h1>Sign Up</h1>
 				<!-- context part of application user bean available for thymleaf to hold data form -->
 				<form th:action="@{/signup}" method="post" th:object="${user} ">  
+				<!-- error message -->
+					<div th:if="${param.error}">
+						<div class="alert alert-danger">
+							Username already exists. Duplicated Username not allowed
+						</div>
+					</div> 
 					<!-- first name  -->
 					<div class="form-group">
 						<label class="control-label" for="firstname">First Name </label>
@@ -80,9 +86,9 @@
 					</div>
 					<!-- email  -->
 					<div class="form-group">
-						<label class="control-label" for="email">Email </label>
+						<label class="control-label" for="username">Username </label>
 						<!-- fields of UserDto class -->
-						<input id="email" class="form-control" th:field ="*{email}" required autofocus="autofocus"/>
+						<input id="username" class="form-control" th:field ="*{username}" required autofocus="autofocus"/>
 					</div>
 					<!-- password  -->
 					<div class="form-group">
@@ -90,6 +96,23 @@
 						<!-- fields of UserDto class -->
 						<input id="password" class="form-control" type="password" th:field ="*{password}" required autofocus="autofocus"/>
 					</div>
+					<!-- roles -->
+					<div class="form-group">
+						<label class="control-label" for="accounttype">Account Type</label>
+						<div class="form-check">
+ 						 <input class="form-check-input" type="radio" name="role" id="role" value="seller" checked ><!--th:field="*{roles}">-->
+  						 <label class="form-check-label" for="flexRadioDefault1">
+   							 Seller
+  						 </label>
+						</div>
+						<div class="form-check">
+  						<input class="form-check-input" type="radio" name="role" id="role" value="buyer" ><!-- th:field="*{roles}" >-->
+ 					    <label class="form-check-label" for="flexRadioDefault2">
+    						Buyer
+  						</label>
+						</div>
+					</div>
+					<br>
 					<!-- sign up button  -->
 					<div class="form-group">
 						<button type="submit" class="btn btn-success"> Sign Up</button>

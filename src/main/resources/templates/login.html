@@ -38,12 +38,12 @@
                       <li class="nav-item">
                         <a class="nav-link"  href="/signup" th:href="@{/signup}">Sign Up</a>
                       </li>
-                      <li class="nav-item">
+                     <!--  <li class="nav-item">
                         <a class="nav-link active" href="#">Contact Us</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" href="#">About</a>
-                      </li>
+                      </li>-->
                     </ul>
                   </div>
               </nav>
@@ -54,15 +54,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
+			<!-- success message -->
+				<div th:if="${param.success}">
+					<div class="alert alert-info">
+						Welcome, you have successfully login into our BuyerSeller Web Application!
+					</div>
+				</div>
 				<h1> User Login</h1>
-				<form th:action="@{/login}" method="post"> 
+				<form th:action="@{/login}" method="post" > 
 				
 					<!-- error message -->
 					<div th:if="${param.error}">
 						<div class="alert alert-danger">
-							Invalid username or password.
+							Unexisting account or Invalid username/password
 						</div>
-					</div>
+					</div> 
 					
 					<!-- logout message -->
 					<div th:if="${param.logout}">
@@ -75,14 +81,14 @@
 					<div class="form-group">
 						<label class="control-label" for="username">Username</label>
 						<!-- fields of UserDto class -->
-						<input type="text" class="form-control" id="username" name="username" placeholder="Enter Username/Email ID" autofocus="autofocus"/>
+					<input type="text" class="form-control" id="username" name="username" placeholder="Enter Username/Email ID" autofocus="autofocus"/>
 					</div>
 					
 					<!-- password  -->
 					<div class="form-group">
 						<label class="control-label" for="password">Passwrord</label>
 						<!-- fields of UserDto class -->
-						<input  type="password" class="form-control" id="password" placeholder="Enter Password" autofocus="autofocus"/>
+						<input  type="password" class="form-control" id="password" name="password" placeholder="Enter Password" autofocus="autofocus"/>
 					</div>
 					
 					<!-- login button  -->

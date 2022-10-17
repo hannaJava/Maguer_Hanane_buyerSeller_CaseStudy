@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Sellers</title>
+	<!-- bootstrap for css cdn -->
+	<link rel="stylesheet" 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+		crossorigin="anonymous">
+		
+		<!--Font-->
+     <script src="./Resources/fontawesome-free-6.2.0-web"></script>
+     <!--Custom Stylesheet-->
+     <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<!--Header section-->
+    <header>
+     	<div class="col-md-4 col-12 text-center">
+        	<h2 class="my-md-3 site-title text-white text-center text-justify">Buyer Seller/ Admin Account</h2>
+        </div> 
+        <!-- <div class="col-md-4 col-12 test-right">
+        </div> -->  
+        <!--navigation menu-->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                      </li>
+                       <li class="nav-item">
+                        <a class="nav-link active" href="/users_list">Users</a>
+                      </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" href="/buyers_list">Buyers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="/sellers_list">Sellers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="/items_list">Items</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+    </header>
+    <!--Main section-->
+    <main>
+	<div class="container">
+		<div class="row">
+			<h1>Sellers List</h1>
+			<table class="table table-striped table-bordered">
+				<thead class="table-dark">
+   					<tr>
+     			 		<th scope="col">Seller User Name</th>
+     			 		<th scope="col">Update/Delete</th>
+   				 	</tr>
+  				</thead>
+  				<tbody>
+    				<tr th:each="seller : ${sellers}">
+      					<td th:text="${seller.username}"></td>
+      					<td>
+      					<a class="btn btn-info" th:href="@{/displayUpdateSellerForm(id=${seller.id})}">Update</a>
+      					<a class="btn btn-danger" th:href=" @{/deleteSeller(id=${seller.id})}">Delete</a>
+      					</td>
+    				</tr>
+  				</tbody>
+			</table>
+		</div>
+	</div>
+ </main>
+ 
+  <!--Footer Section-->
+ <footer>
+       
+ </footer>
+</body>
+</html>
