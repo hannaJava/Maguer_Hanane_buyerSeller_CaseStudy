@@ -134,8 +134,9 @@ public class AdminController {
 			return "redirect:/users_list";
 		}
 		
-		@GetMapping("/test")
-		public String test(){
+		/*@GetMapping("/test")
+		public String test(Model model){
+			model.addAttribute("activepage","test");
 			return "test";
-		}
+		}*/
 }

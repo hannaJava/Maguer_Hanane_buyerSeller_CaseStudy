@@ -32,4 +32,10 @@ public class BuyerController {
 		model.addAttribute("keyword",keyword);
 		return "items_list_by_keyword";
 	}	
+	
+	@GetMapping("/items_list_buyer")
+	public String displayAllItems(Model model) {
+		model.addAttribute("items",itemService.getAllItems());
+		return "items_list_buyer";
+	}
 }

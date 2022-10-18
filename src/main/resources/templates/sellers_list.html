@@ -17,38 +17,8 @@
 <body>
 <!--Header section-->
     <header>
-     	<div class="col-md-4 col-12 text-center">
-        	<h2 class="my-md-3 site-title text-white text-center text-justify">Buyer Seller/ Admin Account</h2>
-        </div> 
-        <!-- <div class="col-md-4 col-12 test-right">
-        </div> -->  
-        <!--navigation menu-->
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                      </li>
-                       <li class="nav-item">
-                        <a class="nav-link active" href="/users_list">Users</a>
-                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link active" href="/buyers_list">Buyers</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="/sellers_list">Sellers</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="/items_list">Items</a>
-                      </li>
-                    </ul>
-                  </div>
-              </nav>
-        </div>
+     	 <div th:replace="~{fragments/admin_navigation :: bannerFragment}"></div>
+	<div th:replace="~{fragments/admin_navigation :: navFragment}"></div>
     </header>
     <!--Main section-->
     <main>

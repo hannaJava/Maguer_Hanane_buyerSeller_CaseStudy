@@ -1,5 +1,23 @@
+/**  setting active state to navbar pages*/
+// Get the container element
+var btnContainer = document.getElementsByClassName("nav-item");
+// Get all buttons with class="btn" inside the container
+var btns = document.getElementsByClassName("nav-link");
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        // If there's no active class
+        if (current.length > 0) {
+            current[0].className = current[0].className.replace(" active", "");
+        }
+        // Add the active class to the current/clicked button
+        this.className += " active";
+    });
+}
+
 /** function to display existion items with qt>0 inside a table */
-function displayItems(){
+/*function displayItems(){
     var list = [1,2,3,4,5];
     var items = ['laptop','desktop','tablette','cell phone','Monitor'];
     var prices = [700,500,300,400,200];
@@ -21,15 +39,15 @@ function displayItems(){
         element.appendChild(div_container1);
         }
     }  
-}
+}*/
 
 /**function to display table */
-function showTable(){
+/*function showTable(){
     var table = document.getElementById("id-table");
     table.style.display='block';
-}
+}*/
 
 /**first slider */
-    $(".slider-one").slick();/**
+  /*  $(".slider-one").slick();/**
  * 
  */

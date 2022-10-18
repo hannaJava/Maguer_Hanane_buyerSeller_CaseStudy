@@ -44,6 +44,7 @@ public class MainController {
 	@GetMapping("/login")
 	public String login(Model model) {
 		model.addAttribute("user", new User());
+		model.addAttribute("activepage","home");
 		return "login";
 	}	
 	
@@ -81,7 +82,7 @@ public class MainController {
 			return "redirect:/signup?success";//return sign-up view with success message displayed 
 		}
 		
-	@GetMapping("/admin")
+	@GetMapping("admin")
 	public String displayAdmin() {
 		return "admin";
 	}

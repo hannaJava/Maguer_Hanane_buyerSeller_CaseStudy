@@ -22,6 +22,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
 import javax.persistence.UniqueConstraint;
 
 import org.springframework.security.core.GrantedAuthority;
@@ -33,6 +35,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+//@RequiredArgsConstructor
 @Builder
 public class User implements UserDetails{
 @Id
@@ -62,10 +65,10 @@ private String lastName;
 		joinColumns = @JoinColumn(name="user_id",referencedColumnName ="id"),
 		inverseJoinColumns = @JoinColumn(name="role_id",referencedColumnName ="id")
 		)
-private Collection<Role> roles;
+private List<Role> roles;
 
 //needed in form creation 
-public User( String username, String password, String firstName, String lastName,Collection<Role> roles) {
+public User( String username, String password, String firstName, String lastName,List<Role> roles) {
 	super();
 	
 	this.firstName = firstName;
@@ -75,6 +78,7 @@ public User( String username, String password, String firstName, String lastName
 	this.roles=roles;
 	//this.roles = roles;
 }
+
 
 public boolean hasRole(String roleName) {
     Iterator<Role> iterator = this.roles.iterator();
@@ -122,5 +126,14 @@ public boolean isCredentialsNonExpired() {
 public boolean isEnabled() {
 	// TODO Auto-generated method stub
 	return false;
+}
+
+
+public User(String username, String password, String firstName, String lastName) {
+	super();
+	this.username = username;
+	this.password = password;
+	this.firstName = firstName;
+	this.lastName = lastName;
 }
 }

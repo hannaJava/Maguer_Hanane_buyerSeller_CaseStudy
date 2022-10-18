@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <!-- head section -->
 <head>
@@ -38,43 +30,8 @@
 
     <!--Header section-->
     <header>
-     	<div class="col-md-4 col-12 text-center">
-        	<h2 class="my-md-3 site-title text-white text-center text-justify">Buyer Seller / Buyer Account</h2>
-        </div> 
-        <!-- <div class="col-md-4 col-12 test-right">
-        </div> -->  
-        <!--navigation menu-->
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                      </li>
-                      <!--  <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                      </li>-->
-                    </ul>
-                  </div>
-                   <!--search icon-->
-                  <div class="navbar-nav">
-                  <form th:action="@{/items_list_by_keyword}" method="post">
-                    <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Search items to buy">
-                    <!--<div class="input-group-append">-->
-                      <button class="btn btn-secondary" type="submit">
-                        Search
-                      </button>
-                    <!--</div>-->
-                    </form>
-                  </div>
-              </nav>
-        </div>
+     	 <div th:replace="~{fragments/buyer_navigation :: bannerFragment}"></div>
+	<div th:replace="~{fragments/buyer_navigation :: navFragment}"></div>
     </header>
 
     <!--Main section-->
