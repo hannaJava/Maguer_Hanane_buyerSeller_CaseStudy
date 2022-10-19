@@ -32,6 +32,7 @@
      			 		<th scope="col">Item Price</th>
      			 		<th scope="col">Item Description</th>
      			 		<!--<th scope="col">Item Quantity</th>-->
+     			 		<th scope="col">Seller contact</th>
    				 	</tr>
   				</thead>
   				<tbody>
@@ -40,6 +41,9 @@
       					<td th:text="${item.itemPrice}"></td>
       					<td th:text="${item.itemDescrip}"></td>
       					<!--<td th:text="${item.itemQte}"></td>-->
+      					<td>
+      					<a class="btn btn-info">display</a><!--  th:href="@{/displaySellerContact(id=${item.seller})}" -->
+      					</td>
     				</tr>
   				</tbody>
 			</table>

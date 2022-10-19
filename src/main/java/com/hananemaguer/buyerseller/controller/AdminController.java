@@ -54,20 +54,23 @@ public class AdminController {
 	@GetMapping("/items_list")
 	public String displayAllItems(Model model) {
 		model.addAttribute("items",itemService.getAllItems());
+		model.addAttribute("activepage","items_list");
 		return "items_list";
 	}
 
 	@GetMapping("/displayUpdateItemForm")
-	public ModelAndView displayUpdateItemForm(@RequestParam Long id) {
+	public ModelAndView displayUpdateItemForm(@RequestParam Long id,Model model) {
 		ModelAndView mav = new ModelAndView("create_post");
 		Item item = itemRepo.findById(id);
 		mav.addObject("item", item);
+		model.addAttribute("activepage","displayUpdateItemForm");
 		return mav;
 	}
 	
 	@GetMapping("/deleteItem")
-	public String deleteItem(@RequestParam Long id) {
+	public String deleteItem(@RequestParam Long id,Model model) {
 		itemRepo.deleteById(id);
+		model.addAttribute("activepage","deleteItem");
 		return "redirect:/items_list";
 	}
 	
@@ -75,6 +78,7 @@ public class AdminController {
 	@GetMapping("/sellers_list")
 	public String displayAllSellers(Model model) {
 		model.addAttribute("sellers",sellerService.getAllSellers());
+		model.addAttribute("activepage","sellers_list");
 		return "sellers_list";
 	}
 
@@ -89,7 +93,7 @@ public class AdminController {
 	@GetMapping("/deleteSeller")
 	public String deleteSeller(@RequestParam Long id) {
 		sellerRepo.deleteById(id);
-		return "redirect:/seller_list";
+		return "redirect:/sellers_list";
 	}
 	
 	//buyers requests handling methods
@@ -109,7 +113,7 @@ public class AdminController {
 	
 	@GetMapping("/deleteBuyer")
 	public String deleteBuyer(@RequestParam Long id) {
-		sellerRepo.deleteById(id);
+		buyerRepo.deleteById(id);
 		return "redirect:/buyers_list";
 	}
 	

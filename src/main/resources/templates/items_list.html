@@ -43,7 +43,7 @@
      			 		<th scope="col">Item Price</th>
      			 		<th scope="col">Item Description</th>
      			 		<!--<th scope="col">Item Quantity</th>-->
-     			 		<th scope="col">Update/Delete</th>
+     			 		<!--<th scope="col">Update/Delete</th>-->
    				 	</tr>
   				</thead>
   				<tbody>
@@ -52,10 +52,10 @@
       					<td th:text="${item.itemPrice}"></td>
       					<td th:text="${item.itemDescrip}"></td>
       					<!--<td th:text="${item.itemQte}"></td>-->
-      					<td>
+      					<!--<td>
       					<a class="btn btn-info" th:href="@{/displayUpdateItemForm(id=${item.id})}">Update</a>
       					<a class="btn btn-danger" th:href=" @{/deleteItem(id=${item.id})}">Delete</a>
-      					</td>
+      					</td>-->
     				</tr>
   				</tbody>
 			</table>

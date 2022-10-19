@@ -52,18 +52,20 @@ public class MainController {
 		@GetMapping("/signup")
 		public String displaySignUpForm(Model model) {
 			model.addAttribute("user", new User());
+			model.addAttribute("activepage","signup");
 			return "signup";
 		}
 		
 		//to handle the sign-up form post request
 		@PostMapping("/signup")
-		public String signUp(@ModelAttribute("user") User user,@RequestParam("role") String role) {
+		public String signUp(@ModelAttribute("user") User user,@RequestParam("role") String role, Model model) {
 			user.setRoles(Arrays.asList(new Role(role)));
 			try {
 				userService.save(user);
 			} catch (Exception e) {
 				//e.printStackTrace();
 				System.out.println(e.getMessage());
+				model.addAttribute("activepage","signup");
 				return "redirect:/signup?error";
 			}
 			//save the buyer and seller entity data at same time
@@ -83,17 +85,20 @@ public class MainController {
 		}
 		
 	@GetMapping("admin")
-	public String displayAdmin() {
+	public String displayAdmin(Model model) {
+		model.addAttribute("activepage","admin");
 		return "admin";
 	}
 	
 	@GetMapping("/buyer")
-	public String displayBuyer() {
+	public String displayBuyer(Model model) {
+		model.addAttribute("activepage","buyer");
 		return "buyer";
 	}
 	
 	@GetMapping("/seller")
-	public String displaySeller() {
+	public String displaySeller(Model model) {
+		model.addAttribute("activepage","seller");
 		return "seller";
 	}
 }

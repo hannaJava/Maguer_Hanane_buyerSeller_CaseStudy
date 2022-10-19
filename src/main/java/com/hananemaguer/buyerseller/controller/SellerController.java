@@ -15,10 +15,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.hananemaguer.buyerseller.model.Item;
 import com.hananemaguer.buyerseller.model.Seller;
 import com.hananemaguer.buyerseller.model.User;
+import com.hananemaguer.buyerseller.repository.ItemRepoInt;
 import com.hananemaguer.buyerseller.repository.SellerRepoInt;
 import com.hananemaguer.buyerseller.service.ItemServiceInt;
 import com.hananemaguer.buyerseller.service.SellerServiceInt;
@@ -36,6 +38,9 @@ public class SellerController {
 	
 	@Autowired
 	private SellerRepoInt sellerRepo;
+	
+	@Autowired
+	ItemRepoInt itemRepo;
 	
 	@GetMapping("/create_post")
 	public String DisplayCreatePostForm(Model model) {
@@ -64,6 +69,21 @@ public class SellerController {
 		return "items_list_by_seller";
 	}	
 	
+	@GetMapping("/deleteSellerItem")
+	public String deleteItem(@RequestParam Long id,Model model) {
+		itemRepo.deleteById(id);
+		//model.addAttribute("activepage","deleteItem");
+		return "redirect:/items_list_by_seller";
+	}
+	
+	@GetMapping("/displayUpdateSellerItemForm")
+	public ModelAndView displayUpdateItemForm(@RequestParam Long id,Model model) {
+		ModelAndView mav = new ModelAndView("create_post");
+		Item item = itemRepo.findById(id);
+		mav.addObject("item", item);
+		//model.addAttribute("activepage","displayUpdateItemForm");
+		return mav;
+	}
 	//private static final String PATH="/sellers_list";
 	//private SellerServiceInt sellerService;
 	/*handle list sellers request and return model and view*/
