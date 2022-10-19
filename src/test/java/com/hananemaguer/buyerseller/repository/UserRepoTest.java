@@ -33,7 +33,7 @@ class UserRepoTest {
 	
 	//parameterized test for findByUsername() method
 	@ParameterizedTest
-	@ValueSource(strings={"seller@gmail.com","buyer@gmail.com"})
+	@ValueSource(strings={"root","seller","buyer"})
 	void findUserByUsernameParamTest(String actual) {
 		String expected=userRepo.findByUsername(actual).getUsername();
 		Assertions.assertThat(expected.equals(actual));
@@ -42,7 +42,7 @@ class UserRepoTest {
 	//findById() test
 		@Test
 		void findUserByIdTest() {
-			Long actual=1L;
+			Long actual=2L;
 			User user=userRepo.findById(actual);
 			Long expected=user.getId();
 			Assertions.assertThat(expected.equals(actual));

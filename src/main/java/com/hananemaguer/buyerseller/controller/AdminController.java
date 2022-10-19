@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -125,16 +127,34 @@ public class AdminController {
 		}
 
 		@GetMapping("/displayUpdateUserForm")
-		public ModelAndView displayUpdateUserForm(@RequestParam Long id) {
-			ModelAndView mav = new ModelAndView("signup");//to-do: change the signup form deactivate buyer/seller options
+		public ModelAndView displayUpdateUserForm(@RequestParam Long id,Model model) {
+			ModelAndView mav = new ModelAndView("user_update");//to-do: change the signup form deactivate buyer/seller options
 			User user = userRepo.findById(id);
 			mav.addObject("user", user);
 			return mav;
 		}
 		
+		@PostMapping("/user_update")
+		public String updateUser(@ModelAttribute("user") User user) {
+			 userRepo.updateById(user.getId(), user.getFirstName(), user.getLastName());
+			return "user_update";
+		}
+		
 		@GetMapping("/deleteUser")
 		public String deleteUser(@RequestParam Long id) {
-			userRepo.deleteById(id);
+			User userType=userRepo.findById(id);
+			//System.out.println("user for account type"+userType);
+			//System.out.println("selected role "+role);
+			 if (userType.getRoles().get(0).equals("seller")) {
+		            //add data to seller table
+				 sellerRepo.deleteById(id);
+		        } else if (userType.getRoles().get(0).equals("buyer")) {
+		            //add data to buyer table
+		        	buyerRepo.deleteById(id);
+		        } else if (userType.getRoles().get(0).equals("admin")) {
+		            //add data to admin table
+		        }
+			 userRepo.deleteById(id);
 			return "redirect:/users_list";
 		}
 		

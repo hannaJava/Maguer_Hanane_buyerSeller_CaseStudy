@@ -1,0 +1,70 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<!-- head section -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyerSeller</title>
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+     crossorigin="anonymous">
+     <!--slick slider-->
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+     <!--Font-->
+     <script src="./Resources/fontawesome-free-6.2.0-web" defer></script>
+     <!--Custom Stylesheet-->
+     <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<!-- body section -->
+<body>
+    <!--all scripts insertion-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!--jquery cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--Header section-->
+    <header>
+     	 <div th:replace="~{fragments/buyer_navigation :: bannerFragment}"></div>
+	<div th:replace="~{fragments/buyer_navigation :: navFragment}"></div>
+    </header>
+
+    <!--Main section-->
+    <main>
+        <div class="container">
+		<div class="row">
+			<h1>Seller Contact Details</h1>
+			<table class="table table-striped table-bordered">
+				<thead class="table-dark">
+   					<tr>
+   						<th scope="col">Username</th>
+     			 		<th scope="col">First Name</th>
+     			 		<th scope="col">Last Name</th>
+     			 		<!--<th scope="col">Update/Delete</th>-->
+   				 	</tr>
+  				</thead>
+  				<tbody>
+    				<tr >
+    					<td th:text="${seller.username}"></td>
+      					<td th:text="${seller.firstName}"></td>
+      					<td th:text="${seller.lastName}"></td>
+    				</tr>
+  				</tbody>
+			</table>
+		</div>
+	</div>
+    </main>
+
+    <!--Footer Section-->
+    <footer>
+       
+    </footer>
+</body>
+</html>
+</body>
+</html>

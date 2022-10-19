@@ -22,7 +22,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 import javax.persistence.UniqueConstraint;
 
@@ -38,6 +37,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 //@RequiredArgsConstructor
 @Builder
 public class User implements UserDetails{
+
+	private static final long serialVersionUID = 1L;
+
 @Id
 @GeneratedValue(strategy=GenerationType.IDENTITY)
 private long id;

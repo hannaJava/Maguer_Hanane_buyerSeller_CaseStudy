@@ -72,6 +72,10 @@ header{
     height: 200px;
     position: relative;
  }
+ 
+ /*body{
+ background-image: url('./img/image.jpeg');
+ }*/
 
 /* img{
     max-width: 100%;

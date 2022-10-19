@@ -29,16 +29,16 @@
 				<thead class="table-dark">
    					<tr>
      			 		<th scope="col">Seller User Name</th>
-     			 		<th scope="col">Update/Delete</th>
+     			 		<!--<th scope="col">Update/Delete</th>-->
    				 	</tr>
   				</thead>
   				<tbody>
     				<tr th:each="seller : ${sellers}">
       					<td th:text="${seller.username}"></td>
-      					<td>
+      					<!--<td>
       					<a class="btn btn-info" th:href="@{/displayUpdateSellerForm(id=${seller.id})}">Update</a>
       					<a class="btn btn-danger" th:href=" @{/deleteSeller(id=${seller.id})}">Delete</a>
-      					</td>
+      					</td>-->
     				</tr>
   				</tbody>
 			</table>

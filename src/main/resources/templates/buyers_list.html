@@ -29,16 +29,16 @@
 				<thead class="table-dark">
    					<tr>
      			 		<th scope="col">Buyer User Name</th>
-     			 		<th scope="col">Update/Delete</th>
+     			 		<!--<th scope="col">Update/Delete</th>-->
    				 	</tr>
   				</thead>
   				<tbody>
     				<tr th:each="buyer : ${buyers}">
       					<td th:text="${buyer.username}"></td>
-      					<td>
+      					<!-- <td>
       					<a class="btn btn-info" th:href="@{/displayUpdateBuyerForm(id=${buyer.id})}">Update</a>
       					<a class="btn btn-danger" th:href=" @{/deleteBuyer(id=${buyer.id})}">Delete</a>
-      					</td>
+      					</td>-->
     				</tr>
   				</tbody>
 			</table>
@@ -47,7 +47,7 @@
  </main>
 <!--Footer Section-->
   <footer>
-       
+       <div th:replace="~{fragments/footer :: footerFragment}"></div>
   </footer>
 </body>
 </html>

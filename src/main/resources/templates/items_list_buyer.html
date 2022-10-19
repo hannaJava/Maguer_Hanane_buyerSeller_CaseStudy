@@ -37,17 +37,19 @@
      			 		<th scope="col">Item Price</th>
      			 		<th scope="col">Item Description</th>
      			 		<!--<th scope="col">Item Quantity</th>-->
+     			 		<th scope="col">Seller Name</th>
      			 		<th scope="col">Seller contact</th>
    				 	</tr>
   				</thead>
   				<tbody>
-    				<tr th:each="item : ${items}">
+    				<tr th:each="item : ${items}" th:object="${seller}">
       					<td th:text="${item.itemName}"></td>
       					<td th:text="${item.itemPrice}"></td>
       					<td th:text="${item.itemDescrip}"></td>
       					<!--<td th:text="${item.itemQte}"></td>-->
+      					<td th:text="${item.seller.firstName}"></td>
       					<td>
-      					<a class="btn btn-info">display</a><!--  th:href="@{/displaySellerContact(id=${item.seller})}" -->
+      					<a class="btn btn-info" th:href="@{/displaySellerContact(id=${item.seller.id})}">display</a><!--  th:href="@{/displaySellerContact(id=${item.seller})}" -->
       					</td>
     				</tr>
   				</tbody>

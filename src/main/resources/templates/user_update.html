@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Update</title>
+<!-- bootstrap for css cdn -->
+	<link rel="stylesheet" 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+		crossorigin="anonymous">
+<!--Font-->
+     <script src="./Resources/fontawesome-free-6.2.0-web"></script>
+     <!--Custom Stylesheet-->
+     <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<!--Header section-->
+    <header>
+	<div th:replace="~{fragments/admin_navigation :: bannerFragment}"></div>
+	<div th:replace="~{fragments/admin_navigation :: navFragment}"></div>
+    </header>
+    <!--Main section-->
+    <main>
+	<br>
+	<br>
+	<!-- sign up form -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<!-- success message -->
+				<div th:if="${param.success}">
+					<div class="alert alert-info">
+						Welcome, you have successfully update your user details!
+					</div>
+				</div>
+				<h1>User Update</h1>
+				<!-- context part of application user bean available for thymleaf to hold data form -->
+				<form th:action="@{/user_update}" method="post" th:object="${user} ">  
+				<!-- error message -->
+					<div th:if="${param.error}">
+						<div class="alert alert-danger">
+							Username already exists. Duplicated Username not allowed
+						</div>
+					</div> 
+					<!-- first name  -->
+					<div class="form-group">
+						<label class="control-label" for="firstname">First Name </label>
+						<!-- fields of UserDto class -->
+						<input id="firstname" class="form-control" th:field ="*{firstName}" required autofocus="autofocus"/>
+					</div>
+					<!-- last name  -->
+					<div class="form-group">
+						<label class="control-label" for="lastname">Last Name </label>
+						<!-- fields of UserDto class -->
+						<input id="lastname" class="form-control" th:field ="*{lastName}" required autofocus="autofocus"/>
+					</div>
+					<!-- email  -->
+					<div class="form-group">
+						<label class="control-label" for="username">Username </label>
+						<!-- fields of UserDto class -->
+						<input id="username" class="form-control" th:field ="*{username}" required autofocus="autofocus" disabled/>
+					</div>
+					<br>
+					<!-- sign up button  -->
+					<div class="form-group">
+						<button type="submit" class="btn btn-success"> update</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+ </main>
+ 
+<!--Footer Section-->
+    <footer>
+       
+    </footer>
+</body>
+</html>
