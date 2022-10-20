@@ -53,4 +53,10 @@ public class ItemRepoTest {
 			@Test
 			void searchtemTest() {
 			}
+			
+			//updateById() test
+			@Test
+			void updateItemByIdTest() {
+			
+			}
 }

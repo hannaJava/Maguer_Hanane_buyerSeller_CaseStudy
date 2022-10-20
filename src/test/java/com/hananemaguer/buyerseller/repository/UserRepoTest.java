@@ -52,8 +52,14 @@ class UserRepoTest {
 		//deleteById() test
 				@Test
 				void deleteUserByIdTest() {
-					/*userRepo.deleteById(6L);
-					User expected=userRepo.findById(1L);
-					Assertions.assertThat(expected).isNull();*/
+					userRepo.deleteById(2L);
+					User expected=userRepo.findById(2L);
+					Assertions.assertThat(expected).isNull();
+				}
+				
+				//updateById() test
+				@Test
+				void updateUserByIdTest() {
+				
 				}
 }

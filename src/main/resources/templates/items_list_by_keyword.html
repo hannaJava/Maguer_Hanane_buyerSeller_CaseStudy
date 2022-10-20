@@ -42,7 +42,7 @@
       					<td th:text="${item.itemDescrip}"></td>
       					<!--<td th:text="${item.itemQte}"></td>-->
       					<td>
-      					<a class="btn btn-info">display</a><!--  th:href="@{/displaySellerContact(id=${item.seller})}" -->
+      					<a class="btn btn-info" th:href="@{/displaySellerContact(id=${item.seller.id})}">display</a><!--  th:href="@{/displaySellerContact(id=${item.seller})}" -->
       					</td>
     				</tr>
   				</tbody>

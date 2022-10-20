@@ -1832,3 +1832,1242 @@ java.lang.ClassCastException: cannot assign instance of java.lang.StackTraceElem
 2022-10-19 19:24:56.367 TRACE 10696 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
 2022-10-19 19:24:56.368 TRACE 10696 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
 2022-10-19 19:24:56.369 TRACE 10696 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:25:47.406  INFO 10696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 19:25:47.406  INFO 10696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-19 19:25:47.407  INFO 10696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-19 19:25:54.467 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [root]
+2022-10-19 19:25:54.468 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:25:54.469 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:25:54.469 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:25:54.469 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:25:54.469 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:25:54.469 TRACE 10696 --- [http-nio-8080-exec-6] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:25:54.470 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:25:54.471 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:25:54.472 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:25:54.472 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:25:54.472 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:03.941 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [root]
+2022-10-19 19:26:03.942 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:26:03.943 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:03.943 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:03.943 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:26:03.943 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:03.943 TRACE 10696 --- [http-nio-8080-exec-2] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:26:03.944 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:26:03.945 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:26:03.945 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:26:03.946 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:03.946 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:04.108 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [root]
+2022-10-19 19:26:04.109 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:26:04.109 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:04.109 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:04.109 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:26:04.109 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:04.109 TRACE 10696 --- [http-nio-8080-exec-2] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:26:04.110 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:26:04.111 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:26:04.111 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:26:04.112 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:04.112 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:04.113  INFO 10696 --- [http-nio-8080-exec-2] c.h.b.secureconfig.LoginSuccessHandler   : current sesssion username is : root
+2022-10-19 19:26:08.644 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:26:08.644 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:08.644 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:08.644 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:26:08.644 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:08.644 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [5]
+2022-10-19 19:26:08.644 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [6]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#5]
+2022-10-19 19:26:08.645 TRACE 10696 --- [http-nio-8080-exec-8] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#6]
+2022-10-19 19:26:08.646 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:26:08.647 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [6]
+2022-10-19 19:26:08.647 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:08.647 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:08.647 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:08.648 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:26:08.648 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [5]
+2022-10-19 19:26:08.649 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:08.649 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:26:08.649 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:26:08.650 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:26:08.651 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:26:08.651 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:26:08.651 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:08.651 TRACE 10696 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:10.883 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [4]
+2022-10-19 19:26:10.884 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:10.884 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:10.884 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_0_] : [VARCHAR]) - [$2a$10$uVZF48.vR/3x4Z7V2UJuHOCp6nQq11ob/dFYYM3GfiM31tkzmiNK.]
+2022-10-19 19:26:10.884 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:10.884 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:10.885 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [5]
+2022-10-19 19:26:10.885 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:10.885 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:10.886 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_0_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:26:10.886 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:10.886 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:16.606 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_] : [BIGINT]) - [3]
+2022-10-19 19:26:16.607 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.607 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.607 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_] : [VARCHAR]) - [$2a$10$ZmCMglysfbHbhJ27iTnTzutEO0BX5UtVwVDcUhgrDKxz5gI5ZyxYe]
+2022-10-19 19:26:16.607 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.607 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.607 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_] : [BIGINT]) - [6]
+2022-10-19 19:26:16.608 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.608 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.608 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:26:16.608 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.608 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:16.608 TRACE 10696 --- [http-nio-8080-exec-7] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#3]
+2022-10-19 19:26:16.609 TRACE 10696 --- [http-nio-8080-exec-7] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:26:18.609 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [1]
+2022-10-19 19:26:18.609 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:26:18.610 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:26:18.610 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:26:18.611 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:26:18.611 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:18.611 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_1_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc2]
+2022-10-19 19:26:18.612 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item2]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [3]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:26:18.613 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:18.614 TRACE 10696 --- [http-nio-8080-exec-1] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:26:23.592 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_] : [BIGINT]) - [3]
+2022-10-19 19:26:23.593 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.593 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.593 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_] : [VARCHAR]) - [$2a$10$ZmCMglysfbHbhJ27iTnTzutEO0BX5UtVwVDcUhgrDKxz5gI5ZyxYe]
+2022-10-19 19:26:23.593 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.593 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.593 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_] : [BIGINT]) - [6]
+2022-10-19 19:26:23.594 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.594 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.594 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:26:23.594 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.594 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:23.595 TRACE 10696 --- [http-nio-8080-exec-6] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#3]
+2022-10-19 19:26:23.595 TRACE 10696 --- [http-nio-8080-exec-6] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:26:24.754 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [4]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_0_] : [VARCHAR]) - [$2a$10$uVZF48.vR/3x4Z7V2UJuHOCp6nQq11ob/dFYYM3GfiM31tkzmiNK.]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [5]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:24.755 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_0_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:26:24.756 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:24.756 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_0_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:25.838 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:26:25.839 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:25.839 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:25.839 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:26:25.839 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [5]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [6]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:25.840 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:25.841 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:26:25.841 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:25.841 TRACE 10696 --- [http-nio-8080-exec-3] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:26:25.841 TRACE 10696 --- [http-nio-8080-exec-3] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#5]
+2022-10-19 19:26:25.841 TRACE 10696 --- [http-nio-8080-exec-3] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#6]
+2022-10-19 19:26:25.842 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:26:25.843 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [6]
+2022-10-19 19:26:25.843 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:25.843 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:25.843 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:25.844 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:26:25.845 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [5]
+2022-10-19 19:26:25.845 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [buyer]
+2022-10-19 19:26:25.845 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:26:25.845 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:26:25.846 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:26:25.847 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:26:25.848 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:26:25.848 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:25.848 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:26:50.991 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [seller]
+2022-10-19 19:26:50.992 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [6]
+2022-10-19 19:26:50.993 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:50.993 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:50.993 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:26:50.993 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:50.993 TRACE 10696 --- [http-nio-8080-exec-3] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#6]
+2022-10-19 19:26:50.994 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:26:50.995 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [6]
+2022-10-19 19:26:50.995 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:50.995 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:50.995 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:51.130 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [seller]
+2022-10-19 19:26:51.131 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [6]
+2022-10-19 19:26:51.131 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:51.131 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:51.131 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:26:51.131 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:51.131 TRACE 10696 --- [http-nio-8080-exec-3] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#6]
+2022-10-19 19:26:51.132 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:26:51.133 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [6]
+2022-10-19 19:26:51.133 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:26:51.133 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:51.133 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [6]
+2022-10-19 19:26:51.134  INFO 10696 --- [http-nio-8080-exec-3] c.h.b.secureconfig.LoginSuccessHandler   : current sesssion username is : seller
+2022-10-19 19:27:00.209 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:00.210 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [1]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [2]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc2]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item2]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [3]
+2022-10-19 19:27:00.211 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:00.212 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:00.212 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:00.212 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:00.213 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:00.214 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:00.215 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:00.215 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_0_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:00.215 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:00.215 TRACE 10696 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:00.215 TRACE 10696 --- [http-nio-8080-exec-4] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:27:05.027 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:05.028 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [1]
+2022-10-19 19:27:05.029 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:05.029 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:05.029 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:05.029 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:05.029 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [2]
+2022-10-19 19:27:05.029 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc2]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item2]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [3]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:05.030 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:05.031 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:05.032 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:05.033 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:05.033 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_0_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:05.033 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:05.033 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:05.033 TRACE 10696 --- [http-nio-8080-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:27:08.902 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2022-10-19 19:27:08.904 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [1]
+2022-10-19 19:27:08.904 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:08.904 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:08.904 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:08.904 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:08.905 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:08.905 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:08.905 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:08.906 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_0_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:08.906 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:08.906 TRACE 10696 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:08.906 TRACE 10696 --- [http-nio-8080-exec-2] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:27:18.325 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:18.326 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [1]
+2022-10-19 19:27:18.326 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:18.327 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:18.327 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:18.327 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:18.327 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [2]
+2022-10-19 19:27:18.327 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc2]
+2022-10-19 19:27:18.327 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item2]
+2022-10-19 19:27:18.328 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:18.328 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:18.328 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_] : [BIGINT]) - [3]
+2022-10-19 19:27:18.328 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:18.328 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:18.328 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:18.328 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:18.329 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:18.329 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:18.330 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:18.330 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_0_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:18.330 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:18.330 TRACE 10696 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_0_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:18.330 TRACE 10696 --- [http-nio-8080-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:27:30.479 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [buyer]
+2022-10-19 19:27:30.480 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.480 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.480 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.480 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:27:30.480 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.480 TRACE 10696 --- [http-nio-8080-exec-6] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#5]
+2022-10-19 19:27:30.481 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:27:30.482 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.482 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.482 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.482 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.639 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [buyer]
+2022-10-19 19:27:30.640 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.640 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.641 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.641 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:27:30.641 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.641 TRACE 10696 --- [http-nio-8080-exec-6] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#5]
+2022-10-19 19:27:30.641 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:27:30.642 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.643 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [buyer]
+2022-10-19 19:27:30.643 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.643 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:27:30.644  INFO 10696 --- [http-nio-8080-exec-6] c.h.b.secureconfig.LoginSuccessHandler   : current sesssion username is : buyer
+2022-10-19 19:27:40.720 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%desc%]
+2022-10-19 19:27:40.721 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [1]
+2022-10-19 19:27:40.721 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:40.721 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:40.721 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:40.721 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:40.721 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:40.721 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:40.722 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:40.722 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_1_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:40.722 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:40.722 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:40.722 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [2]
+2022-10-19 19:27:40.722 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc2]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item2]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [3]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:40.723 TRACE 10696 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:40.724 TRACE 10696 --- [http-nio-8080-exec-7] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:27:47.132 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [1]
+2022-10-19 19:27:47.132 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:47.132 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:47.132 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:47.132 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:47.132 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_1_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [2]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc2]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item2]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:47.133 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:47.134 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [3]
+2022-10-19 19:27:47.134 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:47.134 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:47.134 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:47.134 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:47.134 TRACE 10696 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:47.134 TRACE 10696 --- [http-nio-8080-exec-6] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:27:51.884 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:27:51.885 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_] : [BIGINT]) - [6]
+2022-10-19 19:27:51.885 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:51.885 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:51.885 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:51.885 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:51.885 TRACE 10696 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:51.886 TRACE 10696 --- [http-nio-8080-exec-9] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:27:54.941 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [1]
+2022-10-19 19:27:54.941 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_1_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:27:54.942 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [2]
+2022-10-19 19:27:54.943 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:54.943 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc2]
+2022-10-19 19:27:54.943 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item2]
+2022-10-19 19:27:54.943 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:54.943 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:54.943 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [3]
+2022-10-19 19:27:54.943 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:27:54.944 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:27:54.944 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:27:54.944 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:27:54.944 TRACE 10696 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:27:54.944 TRACE 10696 --- [http-nio-8080-exec-1] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:28:00.035 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%desc%]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [1]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:28:00.037 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_1_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [2]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc2]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item2]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:28:00.038 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:28:00.039 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [3]
+2022-10-19 19:28:00.039 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:28:00.039 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:28:00.039 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:28:00.039 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:28:00.039 TRACE 10696 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:28:00.040 TRACE 10696 --- [http-nio-8080-exec-3] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:30:22.086  INFO 10696 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-19 19:30:22.099  INFO 10696 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-19 19:30:22.101  INFO 10696 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-19 19:30:22.128  WARN 10696 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot serialize session attribute [user] for session [5BEC6E31FCDF0E9A297D32F7CB5F0F3D]
+
+java.io.NotSerializableException: com.hananemaguer.buyerseller.model.Role
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1197) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:354) ~[na:na]
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:866) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1201) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1526) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1448) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1191) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1582) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1539) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1448) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1191) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1582) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1539) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1448) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1191) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:354) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1726) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1067) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:317) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:268) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5473) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1412) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1401) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:986) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1412) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1401) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:986) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:497) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:982) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stopTomcat(TomcatWebServer.java:273) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:331) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:52) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:117) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:234) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:373) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:206) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:129) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1067) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.7.4.jar:2.7.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-10-19 19:30:22.153  INFO 10696 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:30:22.154 TRACE 10696 --- [RMI TCP Connection(9)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@55242bc3] for TypeConfiguration
+2022-10-19 19:30:22.154 DEBUG 10696 --- [RMI TCP Connection(9)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@754de96a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@55242bc3]
+2022-10-19 19:30:22.158  INFO 10696 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-19 19:30:22.163  INFO 10696 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-19 19:30:24.969  INFO 7624 --- [restartedMain] c.h.buyerseller.BuyerSellerApplication   : Starting BuyerSellerApplication using Java 17.0.3 on DESKTOP-J1B8MU2 with PID 7624 (D:\PerScholas\eclipse-workspace-war\Maguer_Hanane_buyerSeller_CaseStudy\target\classes started by hanna in D:\PerScholas\eclipse-workspace-war\Maguer_Hanane_buyerSeller_CaseStudy)
+2022-10-19 19:30:24.971 DEBUG 7624 --- [restartedMain] c.h.buyerseller.BuyerSellerApplication   : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 19:30:24.972  INFO 7624 --- [restartedMain] c.h.buyerseller.BuyerSellerApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-19 19:30:25.066  INFO 7624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-19 19:30:25.066  INFO 7624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-19 19:30:26.132  INFO 7624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 19:30:26.229  INFO 7624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2022-10-19 19:30:26.727  INFO 7624 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$34750dc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-19 19:30:26.803  INFO 7624 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-19 19:30:27.332  INFO 7624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-19 19:30:27.347  INFO 7624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-19 19:30:27.348  INFO 7624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 19:30:27.482  INFO 7624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-19 19:30:27.482  INFO 7624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2415 ms
+2022-10-19 19:30:27.726  WARN 7624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot deserialize session attribute [user] for session [5BEC6E31FCDF0E9A297D32F7CB5F0F3D]
+2022-10-19 19:30:27.748 ERROR 7624 --- [restartedMain] o.a.catalina.session.StandardManager     : Exception loading sessions from persistent storage
+
+java.lang.ClassCastException: cannot assign instance of java.lang.StackTraceElement to field java.util.Collections$UnmodifiableList.list of type java.util.List in instance of java.util.Collections$UnmodifiableList
+	at java.base/java.io.ObjectStreamClass$FieldReflector.setObjFieldValues(ObjectStreamClass.java:2227) ~[na:na]
+	at java.base/java.io.ObjectStreamClass$FieldReflector.checkObjectFieldValueTypes(ObjectStreamClass.java:2191) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.checkObjFieldValueTypes(ObjectStreamClass.java:1478) ~[na:na]
+	at java.base/java.io.ObjectInputStream$FieldValues.defaultCheckFieldValues(ObjectInputStream.java:2690) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2497) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2268) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1744) ~[na:na]
+	at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2617) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2468) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2268) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1744) ~[na:na]
+	at java.base/java.io.ObjectInputStream$FieldValues.<init>(ObjectInputStream.java:2617) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2468) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2268) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1744) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:514) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:472) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1608) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5247) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.4.jar:2.7.4]
+	at com.hananemaguer.buyerseller.BuyerSellerApplication.main(BuyerSellerApplication.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.4.jar:2.7.4]
+
+2022-10-19 19:30:27.931  INFO 7624 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 19:30:28.010  INFO 7624 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 19:30:28.267  INFO 7624 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 19:30:28.309 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@1e8f79ef
+2022-10-19 19:30:28.310 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@1e8f79ef
+2022-10-19 19:30:28.310 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1e8f79ef
+2022-10-19 19:30:28.311 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@3f931add
+2022-10-19 19:30:28.312 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@35f47524
+2022-10-19 19:30:28.313 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@39a9b8d
+2022-10-19 19:30:28.314 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6a6be643
+2022-10-19 19:30:28.315 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6a6be643
+2022-10-19 19:30:28.315 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6a6be643
+2022-10-19 19:30:28.316 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@5717eed8
+2022-10-19 19:30:28.317 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@5717eed8
+2022-10-19 19:30:28.317 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5717eed8
+2022-10-19 19:30:28.318 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@39db9cf
+2022-10-19 19:30:28.319 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@39db9cf
+2022-10-19 19:30:28.319 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@39db9cf
+2022-10-19 19:30:28.320 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@a7f010
+2022-10-19 19:30:28.321 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@a7f010
+2022-10-19 19:30:28.321 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@a7f010
+2022-10-19 19:30:28.323 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@61947cbf
+2022-10-19 19:30:28.324 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@61947cbf
+2022-10-19 19:30:28.324 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@61947cbf
+2022-10-19 19:30:28.325 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@4e6d7838
+2022-10-19 19:30:28.325 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@4e6d7838
+2022-10-19 19:30:28.326 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4e6d7838
+2022-10-19 19:30:28.328 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@27fe5314
+2022-10-19 19:30:28.328 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@27fe5314
+2022-10-19 19:30:28.328 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@27fe5314
+2022-10-19 19:30:28.330 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6991c297
+2022-10-19 19:30:28.330 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6991c297
+2022-10-19 19:30:28.332 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7c6fb4c8
+2022-10-19 19:30:28.333 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7c6fb4c8
+2022-10-19 19:30:28.334 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@42feb810
+2022-10-19 19:30:28.335 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@42feb810
+2022-10-19 19:30:28.336 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5aa76298
+2022-10-19 19:30:28.338 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@79035152
+2022-10-19 19:30:28.340 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@2d9cfa95
+2022-10-19 19:30:28.340 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@2d9cfa95
+2022-10-19 19:30:28.342 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@51d70aec
+2022-10-19 19:30:28.342 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@51d70aec
+2022-10-19 19:30:28.345 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@42bcf5bb
+2022-10-19 19:30:28.345 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@42bcf5bb
+2022-10-19 19:30:28.348 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@93a8851
+2022-10-19 19:30:28.348 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@93a8851
+2022-10-19 19:30:28.350 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@76ece3e0
+2022-10-19 19:30:28.351 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@76ece3e0
+2022-10-19 19:30:28.353 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@45b6e6e4
+2022-10-19 19:30:28.354 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@45b6e6e4
+2022-10-19 19:30:28.356 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@49e9d2eb
+2022-10-19 19:30:28.357 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@49e9d2eb
+2022-10-19 19:30:28.359 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@583e0e40
+2022-10-19 19:30:28.360 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@583e0e40
+2022-10-19 19:30:28.363 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@576f27a2
+2022-10-19 19:30:28.364 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@576f27a2
+2022-10-19 19:30:28.368 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@7daea8d3
+2022-10-19 19:30:28.368 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@7daea8d3
+2022-10-19 19:30:28.371 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@4404247b
+2022-10-19 19:30:28.372 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4404247b
+2022-10-19 19:30:28.374 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@43c5b600
+2022-10-19 19:30:28.375 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@43c5b600
+2022-10-19 19:30:28.375 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@43c5b600
+2022-10-19 19:30:28.379 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1b36d780
+2022-10-19 19:30:28.381 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@4394328e
+2022-10-19 19:30:28.382 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4394328e
+2022-10-19 19:30:28.382 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4394328e
+2022-10-19 19:30:28.383 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1d897a62
+2022-10-19 19:30:28.385 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@284677d5
+2022-10-19 19:30:28.387 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@5f814ac6
+2022-10-19 19:30:28.388 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5f814ac6
+2022-10-19 19:30:28.389 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@1d420f4b
+2022-10-19 19:30:28.389 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1d420f4b
+2022-10-19 19:30:28.390 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@3d36d7be
+2022-10-19 19:30:28.390 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3d36d7be
+2022-10-19 19:30:28.391 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@13fe27b0
+2022-10-19 19:30:28.392 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@13fe27b0
+2022-10-19 19:30:28.394 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3d58786f
+2022-10-19 19:30:28.394 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3d58786f
+2022-10-19 19:30:28.395 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6849b9db
+2022-10-19 19:30:28.397 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@5519c553
+2022-10-19 19:30:28.398 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@5519c553
+2022-10-19 19:30:28.398 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@5519c553
+2022-10-19 19:30:28.400 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1f78857a
+2022-10-19 19:30:28.400 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1f78857a
+2022-10-19 19:30:28.400 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1f78857a
+2022-10-19 19:30:28.402 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@5f93b2ad
+2022-10-19 19:30:28.402 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@7a56a799
+2022-10-19 19:30:28.404 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@7c3c6c41
+2022-10-19 19:30:28.404 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@7c3c6c41
+2022-10-19 19:30:28.404 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@7c3c6c41
+2022-10-19 19:30:28.406 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7cb4b41e
+2022-10-19 19:30:28.406 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7cb4b41e
+2022-10-19 19:30:28.406 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7cb4b41e
+2022-10-19 19:30:28.407 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@4330b452
+2022-10-19 19:30:28.408 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@42639fa0
+2022-10-19 19:30:28.411 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@38229853
+2022-10-19 19:30:28.411 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@38229853
+2022-10-19 19:30:28.412 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@57031059
+2022-10-19 19:30:28.416 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@1214e925
+2022-10-19 19:30:28.416 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1214e925
+2022-10-19 19:30:28.420 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@1834d3cd
+2022-10-19 19:30:28.420 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1834d3cd
+2022-10-19 19:30:28.421 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3e8967d3
+2022-10-19 19:30:28.422 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1bb1a4a6
+2022-10-19 19:30:28.424 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@14592b27
+2022-10-19 19:30:28.431 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@7207657e
+2022-10-19 19:30:28.432 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7207657e
+2022-10-19 19:30:28.433 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@786751b4
+2022-10-19 19:30:28.433 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7974f7cd
+2022-10-19 19:30:28.434 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1550673
+2022-10-19 19:30:28.434 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@27026130
+2022-10-19 19:30:28.434 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@65aa7e95
+2022-10-19 19:30:28.435 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3b3e2772
+2022-10-19 19:30:28.435 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@12f1d8f8
+2022-10-19 19:30:28.435 DEBUG 7624 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@26ce2077
+2022-10-19 19:30:28.525  INFO 7624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-19 19:30:28.649  INFO 7624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-19 19:30:28.676  INFO 7624 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-19 19:30:28.733 DEBUG 7624 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@534eb0a9] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@58fb0a31]
+2022-10-19 19:30:29.124 DEBUG 7624 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@534eb0a9] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@401885bc]
+2022-10-19 19:30:29.889  INFO 7624 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 19:30:29.903 TRACE 7624 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@401885bc] for TypeConfiguration
+2022-10-19 19:30:29.905  INFO 7624 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:30:30.944  WARN 7624 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 19:30:31.158  INFO 7624 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@395d8827, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3aa1b3b8, org.springframework.security.web.context.SecurityContextPersistenceFilter@13257a92, org.springframework.security.web.header.HeaderWriterFilter@3a4b7095, org.springframework.security.web.csrf.CsrfFilter@182a6cd2, org.springframework.security.web.authentication.logout.LogoutFilter@1bc792f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b0daf12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a77ad6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f0e9c5e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3dd186e1, org.springframework.security.web.session.SessionManagementFilter@3faa4673, org.springframework.security.web.access.ExceptionTranslationFilter@69e9215e, org.springframework.security.web.access.intercept.AuthorizationFilter@1782e432]
+2022-10-19 19:30:31.484  INFO 7624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-10-19 19:30:31.895  INFO 7624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-19 19:30:31.955  INFO 7624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 19:30:31.973  INFO 7624 --- [restartedMain] c.h.buyerseller.BuyerSellerApplication   : Started BuyerSellerApplication in 7.6 seconds (JVM running for 8.813)
+2022-10-19 19:30:32.041 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [root]
+2022-10-19 19:30:32.048 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:30:32.057 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:30:32.057 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:30:32.057 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:30:32.057 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:30:32.074 TRACE 7624 --- [restartedMain] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:30:32.082 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:30:32.089 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:30:32.090 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:30:32.090 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:30:32.091 TRACE 7624 --- [restartedMain] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:30:45.175  INFO 7624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 19:30:45.175  INFO 7624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-19 19:30:45.177  INFO 7624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-10-19 19:30:54.304 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [buyer]
+2022-10-19 19:30:54.306 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.306 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.306 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.307 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:30:54.307 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.307 TRACE 7624 --- [http-nio-8080-exec-7] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#5]
+2022-10-19 19:30:54.307 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:30:54.308 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.309 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.309 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.309 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.461 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [buyer]
+2022-10-19 19:30:54.462 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.462 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.463 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.463 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$YdPR41Q2QYYw3NbHOLyl7Oue9ubgteUbVmsL7mruhPdHQQIanIAoW]
+2022-10-19 19:30:54.463 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.463 TRACE 7624 --- [http-nio-8080-exec-7] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#5]
+2022-10-19 19:30:54.463 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:30:54.464 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.465 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [buyer]
+2022-10-19 19:30:54.465 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.465 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [5]
+2022-10-19 19:30:54.466  INFO 7624 --- [http-nio-8080-exec-7] c.h.b.secureconfig.LoginSuccessHandler   : current sesssion username is : buyer
+2022-10-19 19:31:03.598 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%desc%]
+2022-10-19 19:31:03.599 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [1]
+2022-10-19 19:31:03.599 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:31:03.599 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:31:03.599 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:31:03.601 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:31:03.601 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:31:03.601 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:03.601 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:03.602 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_1_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:31:03.602 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:03.602 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_1_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:03.602 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [2]
+2022-10-19 19:31:03.602 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:31:03.602 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc2]
+2022-10-19 19:31:03.603 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item2]
+2022-10-19 19:31:03.603 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:31:03.603 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:31:03.603 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_1_0_] : [BIGINT]) - [3]
+2022-10-19 19:31:03.603 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_1_] : [BIGINT]) - [6]
+2022-10-19 19:31:03.603 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_des2_1_0_] : [VARCHAR]) - [desc1]
+2022-10-19 19:31:03.603 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nam3_1_0_] : [VARCHAR]) - [item1]
+2022-10-19 19:31:03.604 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_pri4_1_0_] : [DOUBLE]) - [0.0]
+2022-10-19 19:31:03.604 TRACE 7624 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([seller_i5_1_0_] : [BIGINT]) - [6]
+2022-10-19 19:31:03.604 TRACE 7624 --- [http-nio-8080-exec-3] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:31:05.172 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [6]
+2022-10-19 19:31:05.173 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_3_] : [BIGINT]) - [6]
+2022-10-19 19:31:05.173 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:05.173 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:05.174 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_3_] : [VARCHAR]) - [$2a$10$/VfHQijQUHlEWPJ3NF4h0uqdJRSLRj7Hxz.8z1DksGSSnDVH8CrAm]
+2022-10-19 19:31:05.174 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role5_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:05.174 TRACE 7624 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username6_3_] : [VARCHAR]) - [seller]
+2022-10-19 19:31:05.174 TRACE 7624 --- [http-nio-8080-exec-7] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.Seller.items#6]
+2022-10-19 19:32:15.785  INFO 7624 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-19 19:32:15.801  INFO 7624 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-19 19:32:15.803  INFO 7624 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-19 19:32:15.814  WARN 7624 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot serialize session attribute [user] for session [B509EB6D1676A02EB90F248D54CC2287]
+
+java.io.NotSerializableException: com.hananemaguer.buyerseller.model.Role
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1197) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:354) ~[na:na]
+	at java.base/java.util.ArrayList.writeObject(ArrayList.java:866) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1201) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1526) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1448) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1191) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1582) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1539) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1448) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1191) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1582) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1539) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1448) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1191) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:354) ~[na:na]
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1726) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1067) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:317) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:268) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5473) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1412) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1401) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:986) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1412) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1401) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:986) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:497) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:982) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:496) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stopTomcat(TomcatWebServer.java:273) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:331) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:52) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:117) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:234) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:373) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:206) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:129) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1067) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-2.7.4.jar:2.7.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.7.4.jar:2.7.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-10-19 19:32:15.841  INFO 7624 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:32:15.841 TRACE 7624 --- [RMI TCP Connection(6)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@401885bc] for TypeConfiguration
+2022-10-19 19:32:15.842 DEBUG 7624 --- [RMI TCP Connection(6)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@79f8a867] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@401885bc]
+2022-10-19 19:32:15.848  INFO 7624 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-19 19:32:15.856  INFO 7624 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-19 19:32:25.014  INFO 13216 --- [main] c.h.buyerseller.repository.ItemRepoTest  : Starting ItemRepoTest using Java 17.0.3 on DESKTOP-J1B8MU2 with PID 13216 (started by hanna in D:\PerScholas\eclipse-workspace-war\Maguer_Hanane_buyerSeller_CaseStudy)
+2022-10-19 19:32:25.016 DEBUG 13216 --- [main] c.h.buyerseller.repository.ItemRepoTest  : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 19:32:25.017  INFO 13216 --- [main] c.h.buyerseller.repository.ItemRepoTest  : No active profile set, falling back to 1 default profile: "default"
+2022-10-19 19:32:26.434  INFO 13216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 19:32:26.591  INFO 13216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 4 JPA repository interfaces.
+2022-10-19 19:32:27.327  INFO 13216 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$465306fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-19 19:32:27.462  INFO 13216 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-19 19:32:28.089  INFO 13216 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 19:32:28.228  INFO 13216 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 19:32:28.595  INFO 13216 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 19:32:28.720 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@71166348
+2022-10-19 19:32:28.721 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@71166348
+2022-10-19 19:32:28.721 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@71166348
+2022-10-19 19:32:28.722 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@3be3e76c
+2022-10-19 19:32:28.724 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@23121d14
+2022-10-19 19:32:28.725 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@4c635edc
+2022-10-19 19:32:28.728 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@7ac5b4c
+2022-10-19 19:32:28.728 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@7ac5b4c
+2022-10-19 19:32:28.728 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7ac5b4c
+2022-10-19 19:32:28.731 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@7a3f08b6
+2022-10-19 19:32:28.731 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@7a3f08b6
+2022-10-19 19:32:28.731 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7a3f08b6
+2022-10-19 19:32:28.734 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@634e1b39
+2022-10-19 19:32:28.734 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@634e1b39
+2022-10-19 19:32:28.735 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@634e1b39
+2022-10-19 19:32:28.737 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@7cf8f45a
+2022-10-19 19:32:28.737 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@7cf8f45a
+2022-10-19 19:32:28.737 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7cf8f45a
+2022-10-19 19:32:28.739 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@3b57dba4
+2022-10-19 19:32:28.740 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@3b57dba4
+2022-10-19 19:32:28.740 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@3b57dba4
+2022-10-19 19:32:28.743 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@2b0454d2
+2022-10-19 19:32:28.743 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@2b0454d2
+2022-10-19 19:32:28.743 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2b0454d2
+2022-10-19 19:32:28.745 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@31881aa2
+2022-10-19 19:32:28.746 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@31881aa2
+2022-10-19 19:32:28.746 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@31881aa2
+2022-10-19 19:32:28.748 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@787d1f9c
+2022-10-19 19:32:28.749 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@787d1f9c
+2022-10-19 19:32:28.751 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@682e445e
+2022-10-19 19:32:28.751 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@682e445e
+2022-10-19 19:32:28.753 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@65bd19bf
+2022-10-19 19:32:28.754 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@65bd19bf
+2022-10-19 19:32:28.755 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@26c7b1c6
+2022-10-19 19:32:28.756 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@626c569b
+2022-10-19 19:32:28.759 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@d36c1c3
+2022-10-19 19:32:28.759 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@d36c1c3
+2022-10-19 19:32:28.761 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@70f148dc
+2022-10-19 19:32:28.762 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@70f148dc
+2022-10-19 19:32:28.764 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@573aeab2
+2022-10-19 19:32:28.764 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@573aeab2
+2022-10-19 19:32:28.766 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@795b66d
+2022-10-19 19:32:28.766 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@795b66d
+2022-10-19 19:32:28.768 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6e685e6c
+2022-10-19 19:32:28.769 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6e685e6c
+2022-10-19 19:32:28.771 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@c14e5a5
+2022-10-19 19:32:28.771 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@c14e5a5
+2022-10-19 19:32:28.773 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2b79c8ff
+2022-10-19 19:32:28.774 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2b79c8ff
+2022-10-19 19:32:28.775 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5f0f70c7
+2022-10-19 19:32:28.776 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5f0f70c7
+2022-10-19 19:32:28.778 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@45d4421d
+2022-10-19 19:32:28.779 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@45d4421d
+2022-10-19 19:32:28.781 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@1578fa9
+2022-10-19 19:32:28.781 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@1578fa9
+2022-10-19 19:32:28.783 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@2d70f312
+2022-10-19 19:32:28.784 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@2d70f312
+2022-10-19 19:32:28.786 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@448ade1
+2022-10-19 19:32:28.786 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@448ade1
+2022-10-19 19:32:28.786 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@448ade1
+2022-10-19 19:32:28.790 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7c9beb51
+2022-10-19 19:32:28.792 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@28f154cc
+2022-10-19 19:32:28.793 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@28f154cc
+2022-10-19 19:32:28.793 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@28f154cc
+2022-10-19 19:32:28.794 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@783b3aa0
+2022-10-19 19:32:28.796 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@134a8ead
+2022-10-19 19:32:28.799 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@44fd7ba4
+2022-10-19 19:32:28.799 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@44fd7ba4
+2022-10-19 19:32:28.801 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@8f57e4c
+2022-10-19 19:32:28.801 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@8f57e4c
+2022-10-19 19:32:28.803 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@2baac4a7
+2022-10-19 19:32:28.803 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2baac4a7
+2022-10-19 19:32:28.805 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@282c4da0
+2022-10-19 19:32:28.805 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@282c4da0
+2022-10-19 19:32:28.807 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5e2a6991
+2022-10-19 19:32:28.807 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5e2a6991
+2022-10-19 19:32:28.808 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@409732fb
+2022-10-19 19:32:28.810 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@4466cf5d
+2022-10-19 19:32:28.811 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@4466cf5d
+2022-10-19 19:32:28.811 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@4466cf5d
+2022-10-19 19:32:28.813 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@71b97eeb
+2022-10-19 19:32:28.814 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@71b97eeb
+2022-10-19 19:32:28.814 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@71b97eeb
+2022-10-19 19:32:28.819 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@478967eb
+2022-10-19 19:32:28.820 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@760f1081
+2022-10-19 19:32:28.823 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@14457a95
+2022-10-19 19:32:28.823 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@14457a95
+2022-10-19 19:32:28.823 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@14457a95
+2022-10-19 19:32:28.825 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@dada335
+2022-10-19 19:32:28.825 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@dada335
+2022-10-19 19:32:28.825 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@dada335
+2022-10-19 19:32:28.826 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@105db94d
+2022-10-19 19:32:28.828 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@7c0df4ab
+2022-10-19 19:32:28.831 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@5e9bf744
+2022-10-19 19:32:28.832 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5e9bf744
+2022-10-19 19:32:28.832 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4ae8fb2a
+2022-10-19 19:32:28.835 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@4f213a2
+2022-10-19 19:32:28.836 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4f213a2
+2022-10-19 19:32:28.839 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@514377fc
+2022-10-19 19:32:28.839 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@514377fc
+2022-10-19 19:32:28.840 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@21d9cd04
+2022-10-19 19:32:28.841 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7ac48f05
+2022-10-19 19:32:28.844 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@49cc9b2a
+2022-10-19 19:32:28.850 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@5d7f8467
+2022-10-19 19:32:28.851 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5d7f8467
+2022-10-19 19:32:28.852 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7ddeb27f
+2022-10-19 19:32:28.852 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@38087342
+2022-10-19 19:32:28.852 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@681de87f
+2022-10-19 19:32:28.852 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2eb1c615
+2022-10-19 19:32:28.853 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2674d4f6
+2022-10-19 19:32:28.853 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5d9d2119
+2022-10-19 19:32:28.853 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5a4464c5
+2022-10-19 19:32:28.853 DEBUG 13216 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7ae590f6
+2022-10-19 19:32:28.951  INFO 13216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-19 19:32:29.115  INFO 13216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-19 19:32:29.154  INFO 13216 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-19 19:32:29.233 DEBUG 13216 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5e0f2c82] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@98637a2]
+2022-10-19 19:32:29.748 DEBUG 13216 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5e0f2c82] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6591f8ea]
+2022-10-19 19:32:30.606  INFO 13216 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 19:32:30.617 TRACE 13216 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@6591f8ea] for TypeConfiguration
+2022-10-19 19:32:30.620  INFO 13216 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:32:32.333  WARN 13216 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 19:32:32.844  INFO 13216 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@53b7f08, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24536f07, org.springframework.security.web.context.SecurityContextPersistenceFilter@51f009ef, org.springframework.security.web.header.HeaderWriterFilter@6a7ab205, org.springframework.security.web.csrf.CsrfFilter@5afba80c, org.springframework.security.web.authentication.logout.LogoutFilter@2689b752, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7962c1d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9734cae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b30b627, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32430075, org.springframework.security.web.session.SessionManagementFilter@bc88295, org.springframework.security.web.access.ExceptionTranslationFilter@514f2020, org.springframework.security.web.access.intercept.AuthorizationFilter@19c06762]
+2022-10-19 19:32:33.905  INFO 13216 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-10-19 19:32:34.893  INFO 13216 --- [main] c.h.buyerseller.repository.ItemRepoTest  : Started ItemRepoTest in 10.602 seconds (JVM running for 12.815)
+2022-10-19 19:32:34.995 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [root]
+2022-10-19 19:32:35.005 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:32:35.015 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:32:35.016 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:32:35.016 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:32:35.016 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:32:35.046 TRACE 13216 --- [main] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:32:35.055 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:32:35.065 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:32:35.066 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:32:35.067 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:32:35.068 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:32:35.587 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:32:35.596 TRACE 13216 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [5]
+2022-10-19 19:32:35.751  INFO 13216 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:32:35.752 TRACE 13216 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@6591f8ea] for TypeConfiguration
+2022-10-19 19:32:35.753 DEBUG 13216 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@d2058d6] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6591f8ea]
+2022-10-19 19:32:35.756  INFO 13216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-19 19:32:35.763  INFO 13216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-19 19:33:57.866  INFO 10804 --- [main] c.h.buyerseller.repository.UserRepoTest  : Starting UserRepoTest using Java 17.0.3 on DESKTOP-J1B8MU2 with PID 10804 (started by hanna in D:\PerScholas\eclipse-workspace-war\Maguer_Hanane_buyerSeller_CaseStudy)
+2022-10-19 19:33:57.869 DEBUG 10804 --- [main] c.h.buyerseller.repository.UserRepoTest  : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 19:33:57.870  INFO 10804 --- [main] c.h.buyerseller.repository.UserRepoTest  : No active profile set, falling back to 1 default profile: "default"
+2022-10-19 19:33:59.282  INFO 10804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 19:33:59.435  INFO 10804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 4 JPA repository interfaces.
+2022-10-19 19:34:00.228  INFO 10804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2ef876b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-19 19:34:00.366  INFO 10804 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-19 19:34:01.034  INFO 10804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 19:34:01.173  INFO 10804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 19:34:01.577  INFO 10804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 19:34:01.713 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6a8a551e
+2022-10-19 19:34:01.714 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6a8a551e
+2022-10-19 19:34:01.714 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6a8a551e
+2022-10-19 19:34:01.715 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@700b9e6b
+2022-10-19 19:34:01.717 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@798cf6d2
+2022-10-19 19:34:01.718 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@7a3f08b6
+2022-10-19 19:34:01.721 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@67d8faec
+2022-10-19 19:34:01.721 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@67d8faec
+2022-10-19 19:34:01.722 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@67d8faec
+2022-10-19 19:34:01.724 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@62cf6a84
+2022-10-19 19:34:01.724 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@62cf6a84
+2022-10-19 19:34:01.725 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@62cf6a84
+2022-10-19 19:34:01.728 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@35f7969d
+2022-10-19 19:34:01.729 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@35f7969d
+2022-10-19 19:34:01.729 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@35f7969d
+2022-10-19 19:34:01.732 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@2616b618
+2022-10-19 19:34:01.732 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@2616b618
+2022-10-19 19:34:01.733 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2616b618
+2022-10-19 19:34:01.735 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@1b46392c
+2022-10-19 19:34:01.736 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@1b46392c
+2022-10-19 19:34:01.736 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@1b46392c
+2022-10-19 19:34:01.738 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@2becfd4c
+2022-10-19 19:34:01.739 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@2becfd4c
+2022-10-19 19:34:01.739 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2becfd4c
+2022-10-19 19:34:01.741 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@79e10fb4
+2022-10-19 19:34:01.742 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@79e10fb4
+2022-10-19 19:34:01.742 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@79e10fb4
+2022-10-19 19:34:01.744 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@74697863
+2022-10-19 19:34:01.745 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@74697863
+2022-10-19 19:34:01.747 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@626c569b
+2022-10-19 19:34:01.748 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@626c569b
+2022-10-19 19:34:01.750 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@d36c1c3
+2022-10-19 19:34:01.750 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@d36c1c3
+2022-10-19 19:34:01.751 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@787178b1
+2022-10-19 19:34:01.753 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3360283
+2022-10-19 19:34:01.755 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@1304e0d7
+2022-10-19 19:34:01.756 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@1304e0d7
+2022-10-19 19:34:01.757 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@359ceb13
+2022-10-19 19:34:01.758 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@359ceb13
+2022-10-19 19:34:01.760 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@5b0902b4
+2022-10-19 19:34:01.761 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5b0902b4
+2022-10-19 19:34:01.763 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@16f15ae9
+2022-10-19 19:34:01.764 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@16f15ae9
+2022-10-19 19:34:01.766 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2baf72d5
+2022-10-19 19:34:01.767 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2baf72d5
+2022-10-19 19:34:01.769 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@1860a7a1
+2022-10-19 19:34:01.770 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@1860a7a1
+2022-10-19 19:34:01.773 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@74e497ae
+2022-10-19 19:34:01.773 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@74e497ae
+2022-10-19 19:34:01.775 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@45d4421d
+2022-10-19 19:34:01.776 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@45d4421d
+2022-10-19 19:34:01.780 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@26275b46
+2022-10-19 19:34:01.780 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@26275b46
+2022-10-19 19:34:01.784 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@5fe46d52
+2022-10-19 19:34:01.785 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@5fe46d52
+2022-10-19 19:34:01.788 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@7cfb8e98
+2022-10-19 19:34:01.788 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7cfb8e98
+2022-10-19 19:34:01.792 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@6ed18d80
+2022-10-19 19:34:01.792 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6ed18d80
+2022-10-19 19:34:01.793 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6ed18d80
+2022-10-19 19:34:01.797 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4c176ff1
+2022-10-19 19:34:01.800 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@4975dda1
+2022-10-19 19:34:01.800 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4975dda1
+2022-10-19 19:34:01.801 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4975dda1
+2022-10-19 19:34:01.802 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@22f8adc2
+2022-10-19 19:34:01.804 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@26fadd98
+2022-10-19 19:34:01.806 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@23ad2d17
+2022-10-19 19:34:01.806 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@23ad2d17
+2022-10-19 19:34:01.808 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@65f3e805
+2022-10-19 19:34:01.808 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@65f3e805
+2022-10-19 19:34:01.811 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@5002fde9
+2022-10-19 19:34:01.811 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5002fde9
+2022-10-19 19:34:01.813 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@f559c74
+2022-10-19 19:34:01.814 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@f559c74
+2022-10-19 19:34:01.816 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@59918c8f
+2022-10-19 19:34:01.816 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@59918c8f
+2022-10-19 19:34:01.817 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@71b97eeb
+2022-10-19 19:34:01.820 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@4a1dda83
+2022-10-19 19:34:01.820 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@4a1dda83
+2022-10-19 19:34:01.821 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@4a1dda83
+2022-10-19 19:34:01.823 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@18c880ea
+2022-10-19 19:34:01.823 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@18c880ea
+2022-10-19 19:34:01.824 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@18c880ea
+2022-10-19 19:34:01.827 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@1abcd059
+2022-10-19 19:34:01.828 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@716f94c1
+2022-10-19 19:34:01.830 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@7c0df4ab
+2022-10-19 19:34:01.831 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@7c0df4ab
+2022-10-19 19:34:01.831 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@7c0df4ab
+2022-10-19 19:34:01.833 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6c8efde4
+2022-10-19 19:34:01.834 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6c8efde4
+2022-10-19 19:34:01.834 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6c8efde4
+2022-10-19 19:34:01.835 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@45e140ae
+2022-10-19 19:34:01.836 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@54326e9
+2022-10-19 19:34:01.840 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@25699aa7
+2022-10-19 19:34:01.841 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@25699aa7
+2022-10-19 19:34:01.842 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6818fd48
+2022-10-19 19:34:01.846 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@799f354a
+2022-10-19 19:34:01.846 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@799f354a
+2022-10-19 19:34:01.849 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@10a907ec
+2022-10-19 19:34:01.850 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@10a907ec
+2022-10-19 19:34:01.851 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@11826398
+2022-10-19 19:34:01.852 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1894fa9f
+2022-10-19 19:34:01.855 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@63f9ddf9
+2022-10-19 19:34:01.862 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@61b838f2
+2022-10-19 19:34:01.863 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@61b838f2
+2022-10-19 19:34:01.864 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2a5abd3c
+2022-10-19 19:34:01.864 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@250967f1
+2022-10-19 19:34:01.864 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@25c1f5ee
+2022-10-19 19:34:01.865 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4bce62b
+2022-10-19 19:34:01.865 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@7bf018dd
+2022-10-19 19:34:01.865 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@15a8cebd
+2022-10-19 19:34:01.865 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3f6c2763
+2022-10-19 19:34:01.865 DEBUG 10804 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5c82031b
+2022-10-19 19:34:01.974  INFO 10804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-19 19:34:02.148  INFO 10804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-19 19:34:02.188  INFO 10804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-19 19:34:02.264 DEBUG 10804 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@45e7bb79] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@605c7a9e]
+2022-10-19 19:34:02.767 DEBUG 10804 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@45e7bb79] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7bce9ce4]
+2022-10-19 19:34:03.602  INFO 10804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 19:34:03.612 TRACE 10804 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@7bce9ce4] for TypeConfiguration
+2022-10-19 19:34:03.614  INFO 10804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:34:05.258  WARN 10804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 19:34:05.762  INFO 10804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e3a2177, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58720eb9, org.springframework.security.web.context.SecurityContextPersistenceFilter@70a24463, org.springframework.security.web.header.HeaderWriterFilter@1bd6638, org.springframework.security.web.csrf.CsrfFilter@7d4e424e, org.springframework.security.web.authentication.logout.LogoutFilter@14b4d90b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b338591, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@556944cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74f92d14, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24749ad3, org.springframework.security.web.session.SessionManagementFilter@7be1e187, org.springframework.security.web.access.ExceptionTranslationFilter@51f009ef, org.springframework.security.web.access.intercept.AuthorizationFilter@122ea8dc]
+2022-10-19 19:34:06.808  INFO 10804 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-10-19 19:34:07.781  INFO 10804 --- [main] c.h.buyerseller.repository.UserRepoTest  : Started UserRepoTest in 10.673 seconds (JVM running for 12.988)
+2022-10-19 19:34:07.882 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [root]
+2022-10-19 19:34:07.891 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [2]
+2022-10-19 19:34:07.899 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([first_na2_5_] : [VARCHAR]) - [root]
+2022-10-19 19:34:07.899 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([last_nam3_5_] : [VARCHAR]) - [root]
+2022-10-19 19:34:07.899 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password4_5_] : [VARCHAR]) - [$2a$10$RyaArBYUAHcqsJU.z9SdB.adfOoXByGgorU/2h0hFDAg1eUOqI4CW]
+2022-10-19 19:34:07.899 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username5_5_] : [VARCHAR]) - [root]
+2022-10-19 19:34:07.923 TRACE 10804 --- [main] org.hibernate.type.CollectionType        : Created collection wrapper: [com.hananemaguer.buyerseller.model.User.roles#2]
+2022-10-19 19:34:07.933 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:34:07.943 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_2_1_] : [BIGINT]) - [2]
+2022-10-19 19:34:07.945 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_2_1_] : [VARCHAR]) - [admin]
+2022-10-19 19:34:07.946 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:34:07.947 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_6_0_] : [BIGINT]) - [2]
+2022-10-19 19:34:08.486 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:34:08.541 TRACE 10804 --- [main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-19 19:34:08.713  INFO 10804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:34:08.714 TRACE 10804 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@7bce9ce4] for TypeConfiguration
+2022-10-19 19:34:08.715 DEBUG 10804 --- [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@7267b54b] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@7bce9ce4]
+2022-10-19 19:34:08.718  INFO 10804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-19 19:34:08.728  INFO 10804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
