@@ -3,6 +3,7 @@ package com.hananemaguer.buyerseller.repository;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import com.hananemaguer.buyerseller.model.Item;
@@ -24,6 +25,6 @@ public interface ItemRepoInt extends JpaRepository<Item,String> {
 	@Query(value ="DELETE FROM items WHERE items.id= :id", nativeQuery = true)
 	void deleteById(Long id);
 	
-	@Query(value="UPDATE items SET items.item_price = :price, items.item_descrip = :descrip WHERE users.id = :id", nativeQuery = true)
+	@Query(value="UPDATE items SET items.item_price = :price, items.item_descrip = :descrip WHERE items.id = :id", nativeQuery = true)
 	void updateById(Long id,Double price, String descrip);
 }

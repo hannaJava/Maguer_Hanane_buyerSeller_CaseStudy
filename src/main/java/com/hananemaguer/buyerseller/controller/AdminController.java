@@ -62,12 +62,14 @@ public class AdminController {
 
 	@GetMapping("/displayUpdateItemForm")
 	public ModelAndView displayUpdateItemForm(@RequestParam Long id,Model model) {
-		ModelAndView mav = new ModelAndView("create_post");
+		ModelAndView mav = new ModelAndView("update_item");
 		Item item = itemRepo.findById(id);
 		mav.addObject("item", item);
 		model.addAttribute("activepage","displayUpdateItemForm");
 		return mav;
 	}
+	
+	
 	
 	@GetMapping("/deleteItem")
 	public String deleteItem(@RequestParam Long id,Model model) {

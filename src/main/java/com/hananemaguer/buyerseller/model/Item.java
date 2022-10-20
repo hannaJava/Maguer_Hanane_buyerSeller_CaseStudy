@@ -37,7 +37,7 @@ public class Item {
 	@Column(name="item_descrip")
 	private String itemDescrip;
 	
-	@ManyToOne(cascade=CascadeType.ALL)
+	@ManyToOne(cascade=CascadeType.PERSIST)
     @JoinColumn(name="seller_id",referencedColumnName ="id")
     private Seller seller;
 

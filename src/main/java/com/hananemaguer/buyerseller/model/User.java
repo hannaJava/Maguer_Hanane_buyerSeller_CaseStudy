@@ -61,7 +61,7 @@ private String lastName;
 
 //Eager over lazy
 //cascade All will include PERSIST, MERGE, REMOVE, REFRESH, DETACH applied to child entity when applied to parent entity
-@ManyToMany(fetch =FetchType.EAGER,cascade=CascadeType.ALL)
+@ManyToMany(fetch =FetchType.EAGER,cascade=CascadeType.PERSIST)
 @JoinTable(
 		name="users_roles",
 		joinColumns = @JoinColumn(name="user_id",referencedColumnName ="id"),

@@ -46,17 +46,17 @@
 				<!-- success message -->
 				<div th:if="${param.success}">
 					<div class="alert alert-info">
-						You have successfully posted your item in our BuyerSeller Web Application!
+						You have successfully updated your item in our BuyerSeller Web Application!
 					</div>
 				</div>
-				<h1>Post Item</h1>
+				<h1>Update Item</h1>
 				<!-- context part of application user bean available for thymleaf to hold data form -->
-				<form th:action="@{/create_post}" method="post" th:object="${item}" enctype="multipart/form-data">  
+				<form th:action="@{/update_item}" method="post" th:object="${item}" enctype="multipart/form-data">  
 					<!-- item name  -->
 					<div class="form-group">
-						<label class="control-label" for="itemname">Item Name </label>
+						<label class="control-label" for="itemname" >Item Name </label>
 						<!-- fields of Item class -->
-						<input name="itemName" id="itemname" class="form-control" th:field ="*{itemName}" required autofocus="autofocus"/>
+						<input name="itemName" id="itemname" class="form-control" th:field ="*{itemName}" required autofocus="autofocus" disabled/>
 					</div>
 					<!-- item price  -->
 					<div class="form-group">
@@ -86,11 +86,7 @@
 					<br>
 					<!-- submit button  -->
 					<div class="form-group">
-						<button type="submit" class="btn btn-primary">Post</button>
-						<span>
-							Display list of posted Items? 
-							<a href="/" th:href="@{/items_list_by_seller}">Posted Items </a>
-						</span>
+						<button type="submit" class="btn btn-primary">Update</button>
 					</div>
 				</form>
 			</div>
@@ -100,7 +96,10 @@
 
     <!--Footer Section-->
     <footer>
-      <div th:replace="~{fragments/footer :: footerFragment}"></div>
+       <footer>
+         	<div th:replace="~{fragments/footer :: footerFragment}"></div>
+    </footer>
+    	<div th:replace="~{fragments/footer :: footerFragment}"></div>
     </footer>
 </body>
 </html>

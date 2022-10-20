@@ -78,21 +78,17 @@ public class SellerController {
 	
 	@GetMapping("/displayUpdateSellerItemForm")
 	public ModelAndView displayUpdateItemForm(@RequestParam Long id,Model model) {
-		ModelAndView mav = new ModelAndView("create_post");
+		ModelAndView mav = new ModelAndView("update_item");
 		Item item = itemRepo.findById(id);
 		mav.addObject("item", item);
 		//model.addAttribute("activepage","displayUpdateItemForm");
 		return mav;
 	}
-	//private static final String PATH="/sellers_list";
-	//private SellerServiceInt sellerService;
-	/*handle list sellers request and return model and view*/
-	/*@GetMapping(PATH)
-	public String listSellers(Model model) {
-		model.addAttribute("sellers",sellerService.getAllSellers());
-		//spring boot automatically configure view resolver for thymleaf whenever it finds a thymleaf dependency in file path(pom.xml) no need to create view resolver bean for thymleaf manually
-		//spring boot will find all thymleaf template under templates folder
-		//display list of sellers in a view(sellers.html)
-		return "sellers_list";
-	}*/
+	
+	@PostMapping("/update_item")
+	public String updateUser(@ModelAttribute("item") Item item) {
+		 itemRepo.updateById(item.getId(), item.getItemPrice(), item.getItemDescrip());
+		return "update_item";
+	}
+	
 }
